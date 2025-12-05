@@ -2,7 +2,7 @@ package maratonajava.com.davi.introducao;
 
 import java.util.Scanner;
 
-public class EstruturasCondicionais06 {
+public class EstruturasCondicionaisExercicio {
     public static void main(String[] args) {
         // Utilizando switch e dados os valores de 1 a 7, imprima se é dia útil ou final de semana
         // Considerando 1 como domingo
