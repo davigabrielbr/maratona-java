@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.Arrays;
+package academy.devdojo.maratonajava.arrays;
 
 public class Arrays01 {
     public static void main(String[] args) {
