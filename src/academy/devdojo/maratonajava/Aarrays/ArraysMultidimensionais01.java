@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.arrays;
+package academy.devdojo.maratonajava.Aarrays;
 
 public class ArraysMultidimensionais01 {
     public static void main(String[] args) {

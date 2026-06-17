@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.introducaoclasses.test;
+package academy.devdojo.maratonajava.Aintroducaoclasses.test;
 
-import academy.devdojo.maratonajava.introducaoclasses.model.Estudante;
+import academy.devdojo.maratonajava.Aintroducaoclasses.model.Estudante;
 
 public class EstudanteTest01 {
     public static void main(String[] args) {
