@@ -3,8 +3,21 @@ package academy.devdojo.maratonajava.Hheranca.model;
 public class Funcionario extends Pessoa {
     private double salario;
 
+    static {
+        System.out.println("Dentro do bloco de inicialização estático de funcionário");
+    }
+
+    {
+        System.out.println("Dentro do bloco de inicialização não estático 1");
+    }
+
+    {
+        System.out.println("Dentro do bloco de inicialização não estático 2");
+    }
+
     public Funcionario(String nome) {
         super(nome);
+        System.out.println("Dentro do construtor de funcionário");
     }
 
     public void imprime() {
