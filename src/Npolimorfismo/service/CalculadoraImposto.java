@@ -1,26 +1,15 @@
 package Npolimorfismo.service;
 
-import Npolimorfismo.model.Computador;
-import Npolimorfismo.model.Tomate;
+import Npolimorfismo.model.Produto;
 
 public class CalculadoraImposto {
-    public static void calcularImpostoComputador(Computador computador) {
-        System.out.println("Relatório de imposto do computador");
+    public static void calcularImposto(Produto produto) {
+        System.out.println("Relátorio de imposto");
 
-        double imposto = computador.calcularImposto();
+        double imposto = produto.calcularImposto();
 
-        System.out.println("Imposto do computador: " + computador.getNome());
-        System.out.println("Valor: " + computador.getValor());
-        System.out.println("Imposto a ser pago: " + imposto);
-    }
-
-    public static void calcularImpostoTomtate(Tomate tomate) {
-        System.out.println("Relatório de imposto do tomate");
-
-        double imposto = tomate.calcularImposto();
-
-        System.out.println("Imposto do tomate: " + tomate.getNome());
-        System.out.println("Valor: " + tomate.getValor());
+        System.out.println("Produto: " + produto.getNome());
+        System.out.println("Preço: " + produto.getValor());
         System.out.println("Imposto a ser pago: " + imposto);
     }
 }
