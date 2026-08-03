@@ -1,4 +1,4 @@
-package Npolimorfismo.model;
+package academy.devdojo.maratonajava.Npolimorfismo.model;
 
 public class Tomate extends Produto {
     public static final double IMPOSTO_POR_CENTO = 0.06;

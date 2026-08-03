@@ -1,9 +1,9 @@
-package Npolimorfismo.test;
+package academy.devdojo.maratonajava.Npolimorfismo.test;
 
-import Npolimorfismo.model.Computador;
-import Npolimorfismo.model.Televisao;
-import Npolimorfismo.model.Tomate;
-import Npolimorfismo.service.CalculadoraImposto;
+import academy.devdojo.maratonajava.Npolimorfismo.model.Computador;
+import academy.devdojo.maratonajava.Npolimorfismo.model.Televisao;
+import academy.devdojo.maratonajava.Npolimorfismo.model.Tomate;
+import academy.devdojo.maratonajava.Npolimorfismo.service.CalculadoraImposto;
 
 public class ProdutoTest01 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Npolimorfismo.model;
+package academy.devdojo.maratonajava.Npolimorfismo.model;
 
 public abstract class Produto implements Taxavel {
     protected String nome;

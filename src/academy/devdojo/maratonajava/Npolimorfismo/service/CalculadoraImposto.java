@@ -1,7 +1,7 @@
-package Npolimorfismo.service;
+package academy.devdojo.maratonajava.Npolimorfismo.service;
 
-import Npolimorfismo.model.Produto;
-import Npolimorfismo.model.Tomate;
+import academy.devdojo.maratonajava.Npolimorfismo.model.Produto;
+import academy.devdojo.maratonajava.Npolimorfismo.model.Tomate;
 
 public class CalculadoraImposto {
     public static void calcularImposto(Produto produto) {
