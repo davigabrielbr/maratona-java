@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.Npolimorfismo.test;
 
-import academy.devdojo.maratonajava.Npolimorfismo.repositorio.Repositorio;
+import academy.devdojo.maratonajava.Npolimorfismo.repository.Repositorio;
 import academy.devdojo.maratonajava.Npolimorfismo.service.RepositorioArquivo;
 import academy.devdojo.maratonajava.Npolimorfismo.service.RepositorioBancoDeDados;
 
