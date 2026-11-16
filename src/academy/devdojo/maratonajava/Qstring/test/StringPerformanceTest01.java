@@ -15,7 +15,7 @@ public class StringPerformanceTest01 {
         inicio = System.currentTimeMillis();
         concatStringBuffer(10_000_000);
         fim = System.currentTimeMillis();
-        System.out.println("Tempo gasto para StringBuilder: " + (fim - inicio) + "ms");
+        System.out.println("Tempo gasto para StringBuffer: " + (fim - inicio) + "ms");
     }
 
     public static void concatString(int tamanho) {
